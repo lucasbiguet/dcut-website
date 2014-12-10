@@ -1,0 +1,18 @@
+#header {
+  background: rgba(100, 100, 100, 0.95);
+}
+
+#nav {
+  display: initial;
+}
+
+#intro {
+  position: relative;
+  padding: 0px;
+  .message {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(100, 100, 100, 0.95);
+  }
+}
