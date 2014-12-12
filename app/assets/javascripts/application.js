@@ -10,10 +10,10 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require init
 //= require jquery.min
 //= require jquery.poptrox.min
 //= require jquery.scrollgress.min
 //= require jquery.scrolly.min
 //= require skel.min
+//= require init
 
