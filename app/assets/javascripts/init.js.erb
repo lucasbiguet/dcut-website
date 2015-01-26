@@ -22,12 +22,12 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'max': { range: '*', href: 'assets/style.css', containers: 1440, viewport: { scalable: false }, grid: { gutters: 40 } },
-			'wide': { range: '-1920', href: 'assets/style-wide.css', containers: 1360 },
-			'normal': { range: '-1680', href: 'assets/style-normal.css', containers: 1200 },
-			'narrow': { range: '-1280', href: 'assets/style-narrow.css', containers: 960 },
-			'narrower': { range: '-1000', href: 'assets/style-narrower.css', containers: '95%' },
-			'mobile': { range: '-736', href: 'assets/style-mobile.css', grid: { gutters: 20 } },
+			'max': { range: '*', href: "<%= asset_path 'html5up/style.css' %>", containers: 1440, viewport: { scalable: false }, grid: { gutters: 40 } },
+			'wide': { range: '-1920', href: "<%= asset_path 'html5up/style-wide.css' %>", containers: 1360 },
+			'normal': { range: '-1680', href: "<%= asset_path 'html5up/style-normal.css' %>", containers: 1200 },
+			'narrow': { range: '-1280', href: "<%= asset_path 'html5up/style-narrow.css' %>", containers: 960 },
+			'narrower': { range: '-1000', href: "<%= asset_path 'html5up/style-narrower.css' %>", containers: '95%' },
+			'mobile': { range: '-736', href: "<%= asset_path 'html5up/style-mobile.css' %>", grid: { gutters: 20 } },
 			'mobile-narrow': { range: '-480', containers: '95%!', grid: { collapse: true } }
 		}
 	});

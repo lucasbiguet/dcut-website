@@ -11,6 +11,6 @@
  *= require_self
  *= require_tree ./html5up
  *= require_tree ./ie
- *= require font-awesome
+ *= require style
  *= require custom
  */
